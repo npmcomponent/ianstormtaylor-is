@@ -1,15 +1,14 @@
 {
-  "name": "is",
-  "repository": "git://github.com/ianstormtaylor/is.git",
-  "license": "MIT",
-  "version": "0.1.1",
+  "name": "ianstormtaylor-is",
   "description": "Simple type checking.",
+  "version": "0.1.1",
   "keywords": [
     "type",
     "is"
   ],
   "dependencies": {
-    "component-type": "1.0.0",
-    "is-empty": "0.0.1"
-  }
+    "component-type": "git://github.com/npmcomponent/component-type.git",
+    "ianstormtaylor-is-empty": "git://github.com/npmcomponent/ianstormtaylor-is-empty.git"
+  },
+  "license": "MIT"
 }

@@ -1,10 +1,10 @@
 
-var isEmpty = require('is-empty');
+var isEmpty = require('ianstormtaylor-is-empty');
 
 try {
-  var typeOf = require('type');
-} catch (e) {
   var typeOf = require('component-type');
+} catch (e) {
+  // commented out by npm-component: var typeOf = require('component-type');
 }
 
 
